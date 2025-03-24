@@ -18,23 +18,23 @@ const themeConfig: DefaultTheme.Config = {
   socialLinks: [
     {
       icon: 'github',
-      link: 'https://github.com/aniyomiorg/aniyomi',
+      link: 'https://github.com/komikku-app/anikku',
       ariaLabel: 'Project GitHub',
     },
     {
       icon: 'discord',
-      link: 'https://discord.gg/F32UjdJZrR',
+      link: 'https://discord.gg/85jB7V5AJR',
       ariaLabel: 'Discord Server',
     },
   ],
 
   footer: {
     message: '<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Open-source Apache Licensed</a> <span class="divider">|</span> <a href="/privacy/">Privacy policy</a>',
-    copyright: `Copyright © ${new Date().getFullYear()} Aniyomi App`,
+    copyright: `Copyright © ${new Date().getFullYear()} Anikku App`,
   },
 
   editLink: {
-    pattern: 'https://github.com/aniyomiorg/aniyomi-website/edit/master/website/src/:path',
+    pattern: 'https://github.com/anikku-app/anikku-app.github.io/edit/master/website/src/:path',
     text: 'Help us improve this page',
   },
 

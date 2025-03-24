@@ -9,25 +9,25 @@ Find out how to help translate or build the app.
 ## Code
 Know how to code and want to improve something or you generally want to support the creation of the app?
 
-[![aniyomiorg/aniyomi - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi&bg_color=f6f6f7&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=false#light "aniyomiorg/aniyomi - GitHub" =400x120)](https://github.com/aniyomiorg/aniyomi)
+[![komikku-app/anikku - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=komikku-app&repo=anikku&bg_color=f6f6f7&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=false#light "komikku-app/anikku - GitHub" =400x120)](https://github.com/komikku-app/anikku)
 
-[![aniyomiorg/aniyomi-website - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi-website&bg_color=f6f6f7&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=false#light "aniyomiorg/aniyomi-website - GitHub" =400x120)](https://github.com/aniyomiorg/aniyomi-website)
+[![anikku-app/anikku-app.github.io - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=anikku-app&repo=anikku-app.github.io&bg_color=f6f6f7&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=false#light "anikku-app/anikku-app.github.io - GitHub" =400x120)](https://github.com/anikku-app/anikku-app.github.io)
 
-[![aniyomiorg/aniyomi - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi&bg_color=1a1a41&text_color=c9d1d9&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=true#dark "aniyomiorg/aniyomi - GitHub" =400x120)](https://github.com/aniyomiorg/aniyomi)
+[![komikku-app/anikku - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=komikku-app&repo=anikku&bg_color=1a1a41&text_color=c9d1d9&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=true#dark "komikku-app/anikku - GitHub" =400x120)](https://github.com/komikku-app/anikku)
 
-[![aniyomiorg/aniyomi-website - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=aniyomiorg&repo=aniyomi-website&bg_color=1a1a41&text_color=c9d1d9&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=true#dark "aniyomiorg/aniyomi-website - GitHub" =400x120)](https://github.com/aniyomiorg/aniyomi-website)
+[![anikku-app/anikku-app.github.io - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=anikku-app&repo=anikku-app.github.io&bg_color=1a1a41&text_color=c9d1d9&title_color=818cf8&icon_color=818cf8&border_radius=8&hide_border=true#dark "anikku-app/anikku-app.github.io - GitHub" =400x120)](https://github.com/anikku-app/anikku-app.github.io)
 
 ## Translation
 Find out how to help translate the app.
 
-[![Translation stats](https://hosted.weblate.org/widget/aniyomi/287x66-grey.png "Translation stats - Weblate" =287x66)](https://hosted.weblate.org/engage/aniyomi/)
+[![Translation stats](https://hosted.weblate.org/widget/anikku/287x66-grey.png "Translation stats - Weblate" =287x66)](https://hosted.weblate.org/engage/anikku/)
 
-[![Translation progress](https://hosted.weblate.org/widget/aniyomi/horizontal-auto.svg "Translation progress - Weblate" =760x200)](https://hosted.weblate.org/engage/aniyomi/)
+[![Translation progress](https://hosted.weblate.org/widget/anikku/horizontal-auto.svg "Translation progress - Weblate" =760x200)](https://hosted.weblate.org/engage/anikku/)
 
 Want to help translate the app to your language?
 You can easily help by utilizing a service we use called **Weblate**.
 
-> View translation project [here](https://hosted.weblate.org/engage/aniyomi/)
+> View translation project [here](https://hosted.weblate.org/engage/anikku/)
 
 ### Helpful links
 * [Translators guide](https://docs.weblate.org/en/latest/user/translating.html)

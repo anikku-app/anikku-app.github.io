@@ -8,8 +8,12 @@ next: false
 pageClass: forks
 
 features:
+  - title: Aniyomi
+    details: The original Aniyomi app, based of all anime forks.
+    icon: <img src="/forks/logo-aniyomi.webp" alt="Animiru Logo" height="32" width="32">
+    link: /forks/Aniyomi/
   - title: Animiru
-    details: Aniyomi without the manga features from Mihon - Focused in anime.
+    details: Anikku without the manga features from Mihon - Focused in anime.
     icon: <img src="/forks/logo-animiru.webp" alt="Animiru Logo" height="32" width="32">
     link: /forks/Animiru/
 

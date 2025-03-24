@@ -27,14 +27,13 @@ Follow these steps to troubleshoot and find solutions.
    - Clear Database
    - DNS over HTTPS
 1. **Download Issues**: Delete the queue and retry downloads.
-1. **Restart Aniyomi**: Force close and reopen the app.
+1. **Restart Anikku**: Force close and reopen the app.
 
 If any of these solutions help, go to [Personalized Issue](#personalized-issue).
 If it is not just you, go to [Widespread Issue](#widespread-issue).
 
-If none of these solutions help, try asking in our [Discord server](https://discord.gg/F32UjdJZrR).
+If none of these solutions help, try asking in our [Discord server](https://discord.gg/85jB7V5AJR).
 
-Check [#anime-extension-status](https://discord.com/channels/841701076242530374/893171979341934634) first to see if your issue is known.
 State your app version and the source, anime, and episode with the problem if it is not listed.
 
 ::: tip An extension update may fix your issue
@@ -43,7 +42,7 @@ There are no ETAs for updates.
 :::
 
 ## Personalized issue
-If you're the only one facing a problem, you might be encountering [Cloudflare](/docs/guides/troubleshooting/#cloudflare) protection, an IP ban, or other countermeasures set by website owners against programs like **Aniyomi**.
+If you're the only one facing a problem, you might be encountering [Cloudflare](/docs/guides/troubleshooting/#cloudflare) protection, an IP ban, or other countermeasures set by website owners against programs like **Anikku**.
 
 **To minimize future issues:**
 - Avoid using downloads with the source.
@@ -56,8 +55,8 @@ These are general guidelines as each site has its specific undisclosed limits an
 ## Widespread issue
 When everyone experiences a problem, it could be with the extension or app:
 
-1. Check [open issues](https://github.com/aniyomiorg/aniyomi/issues)
-2. Check [closed issues](https://github.com/aniyomiorg/aniyomi/issues?q=is%3Aissue+is%3Aclosed) in case it's resolved but not yet released.
+1. Check [open issues](https://github.com/komikku-app/anikku/issues)
+2. Check [closed issues](https://github.com/komikku-app/anikku/issues?q=is%3Aissue+is%3Aclosed) in case it's resolved but not yet released.
 3. If not found, create a new issue.
 
 ::: warning

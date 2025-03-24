@@ -18,7 +18,7 @@ This page explores some advanced features.
 
 ## What are custom buttons?
 
-Custom buttons provides a way to execute lua code by pressing a button in the player. Aniyomi also provides an interface to interact with some parts of the player. By default, Aniyomi comes with a button to seek 85 seconds forward which is meant to skip intros. The duration can be changed by long pressing the button.
+Custom buttons provides a way to execute lua code by pressing a button in the player. Anikku also provides an interface to interact with some parts of the player. By default, Anikku comes with a button to seek 85 seconds forward which is meant to skip intros. The duration can be changed by long pressing the button.
 
 ## Adding a custom button
 
@@ -40,12 +40,12 @@ This one is added in as default. Tapping the custom button will seek ahead by th
 **Lua code**:
 ```lua
 local intro_length = mp.get_property_number("user-data/current-anime/intro-length")
-aniyomi.right_seek_by(intro_length)
+anikku.right_seek_by(intro_length)
 ```
 
 **Lua code (on long press)**:
 ```lua
-aniyomi.int_picker("Change intro length", "%ds", 0, 255, 1, "user-data/current-anime/intro-length")
+anikku.int_picker("Change intro length", "%ds", 0, 255, 1, "user-data/current-anime/intro-length")
 ```
 
 **On startup**:
@@ -53,12 +53,12 @@ aniyomi.int_picker("Change intro length", "%ds", 0, 255, 1, "user-data/current-a
 function update_button(_, length)
   if length ~= nil then
     if length == 0 then
-      aniyomi.hide_button()
+      anikku.hide_button()
       return
     else
-      aniyomi.show_button()
+      anikku.show_button()
     end
-    aniyomi.set_button_title("+" .. length .. " s")
+    anikku.set_button_title("+" .. length .. " s")
   end
 end
 
@@ -75,12 +75,12 @@ This button will toggle debanding when pressed, and will open up a picker to cho
 ```lua
 local deband = mp.get_property_bool("deband")
 mp.set_property_bool("deband", not deband)
-aniyomi.show_text("Debanding: " .. (deband and "off" or "on"))
+anikku.show_text("Debanding: " .. (deband and "off" or "on"))
 ```
 
 **Lua code (on long press)**:
 ```lua
-aniyomi.int_picker("Change deband threshold", "%d", 0, 4096, 4, "deband-threshold")
+anikku.int_picker("Change deband threshold", "%d", 0, 4096, 4, "deband-threshold")
 ```
   :::
 
@@ -92,61 +92,61 @@ Additionally, `$id` can be used as a placeholder in a custom button for its own 
 
 ## Lua interface
 
-Aniyomi provides a lua interface that can be used both in custom buttons and in lua scripts.
+Anikku provides a lua interface that can be used both in custom buttons and in lua scripts.
 
-### `aniyomi.show_text(text)`
+### `anikku.show_text(text)`
 
 Display some [Text](/docs/guides/video-player/#auto-play-is-off) on the player.
 
 * `text` (string) - The text to display.
 
-### `aniyomi.hide_ui()`
+### `anikku.hide_ui()`
 
 Hide the ui.
 
-### `aniyomi.show_ui()`
+### `anikku.show_ui()`
 
 Show the ui.
 
-### `aniyomi.toggle_ui()`
+### `anikku.toggle_ui()`
 
 Toggle the visibility of the ui.
 
-### `aniyomi.show_subtitle_settings()`
+### `anikku.show_subtitle_settings()`
 
 Show the [Subtitle settings](/docs/guides/video-player/panels#subtitle-settings) panel.
 
-### `aniyomi.show_subtitle_delay()`
+### `anikku.show_subtitle_delay()`
 
 Show the [Subtitle delay](/docs/guides/video-player/panels#subtitle-delay) panel.
 
-### `aniyomi.show_audio_delay()`
+### `anikku.show_audio_delay()`
 
 Show the [Audio delay](/docs/guides/video-player/panels#audio-delay) panel.
 
-### `aniyomi.show_video_filters()`
+### `anikku.show_video_filters()`
 
 Show the [Video filters](/docs/guides/video-player/panels#video-filters) panel.
 
-### `aniyomi.set_button_title(text)`
+### `anikku.set_button_title(text)`
 
 Set the title of the custom button.
 
 * `text` (string) - The text to set the button to.
 
-### `aniyomi.reset_button_title()`
+### `anikku.reset_button_title()`
 
 Reset the custom button title.
 
-### `aniyomi.previous_episode()`
+### `anikku.previous_episode()`
 
 Switch to the previous episode.
 
-### `aniyomi.next_episode()`
+### `anikku.next_episode()`
 
 Switch to the next episode.
 
-### `aniyomi.int_picker(title, name_format, start, stop, step, property)`
+### `anikku.int_picker(title, name_format, start, stop, step, property)`
 
 Open up a wheel picker to set an integer value to a property.
 
@@ -157,40 +157,40 @@ Open up a wheel picker to set an integer value to a property.
 * `step` (integer) - Step value for integer range.
 * `property` (string) - mpv property to assign value to.
 
-### `aniyomi.pause()`
+### `anikku.pause()`
 
 Pause the player.
 
-### `aniyomi.unpause()`
+### `anikku.unpause()`
 
 Resume the player.
 
-### `aniyomi.pauseunpause()`
+### `anikku.pauseunpause()`
 
 Toggle pausing.
 
-### `aniyomi.seek_to_with_text(value, text)`
+### `anikku.seek_to_with_text(value, text)`
 
 Seek to a position and display some text in the seek ripple.
 
 * `value` (integer) - Position to seek to (in seconds).
 * `text` (string) - Text to display.
 
-### `aniyomi.hide_button()`
+### `anikku.hide_button()`
 
 Hide the primary button from the player.
 
-### `aniyomi.show_button()`
+### `anikku.show_button()`
 
 Show the primary button.
 
-### `aniyomi.left_seek_by(value)`
+### `anikku.left_seek_by(value)`
 
 Seek backwards.
 
 * `value` (integer) - Seconds to seek back by.
 
-### `aniyomi.right_seek_by(value)`
+### `anikku.right_seek_by(value)`
 
 Seek forwards.
 

@@ -3,11 +3,11 @@ title: Home
 layout: home
 
 hero:
-  name: Aniyomi
-  text: Full-featured player and reader, based on <s>Tachiyomi</s> Mihon.
+  name: Anikku
+  text: Full-featured player and reader, based on <s>Tachiyomi</s> Komikku.
   tagline: Discover and watch anime, cartoons, series, and more – easier than ever on your Android device.
   image:
-    alt: Aniyomi Library Tab Dark
+    alt: Anikku Library Tab Dark
     light: /home/phone.webp
     dark: /home/phone.webp
   actions:
@@ -18,7 +18,7 @@ hero:
       text: Download
       link: /download/
 
-customMetaTitle: Aniyomi
+customMetaTitle: Anikku
 
 features:
   - title: Tracking

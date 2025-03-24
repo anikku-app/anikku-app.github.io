@@ -47,7 +47,7 @@ Press to open the [More](/docs/guides/video-player/sheets#more-sheet) sheet.
 
 ### Auto-play is off
 
-Here, additional messages such as the [Autoplay](/docs/guides/video-player/#autoplay) status, current [View mode](/docs/guides/video-player/#cycle-view-mode), and [`aniyomi.show_text(text)`](/docs/guides/player-settings/custom-buttons#aniyomi-show-text-text) shows up.
+Here, additional messages such as the [Autoplay](/docs/guides/video-player/#autoplay) status, current [View mode](/docs/guides/video-player/#cycle-view-mode), and [`anikku.show_text(text)`](/docs/guides/player-settings/custom-buttons#anikku-show-text-text) shows up.
 
 ## Middle section
 

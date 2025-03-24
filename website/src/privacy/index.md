@@ -1,12 +1,12 @@
 ---
 title: Privacy policy
-description: Privacy Policy that explains how Aniyomi collects, uses, and protects users' personal information.
+description: Privacy Policy that explains how Anikku collects, uses, and protects users' personal information.
 editLink: false
 ---
 
 # Privacy policy
 
-Aniyomi is an Open Source app.
+Anikku is an Open Source app.
 This SERVICE is provided at no cost and is intended for use as is.
 
 This page details our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
@@ -46,4 +46,4 @@ The current iteration of this policy is effective as of January 15, 2024.
 
 ## Contact Us
 
-If you have any questions or suggestions about this Privacy Policy, do not hesitate to reach out to us on [our Discord server](https://discord.gg/F32UjdJZrR).
+If you have any questions or suggestions about this Privacy Policy, do not hesitate to reach out to us on [our Discord server](https://discord.gg/85jB7V5AJR).
