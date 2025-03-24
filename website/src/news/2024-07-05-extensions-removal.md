@@ -11,7 +11,7 @@ date: 2024-07-05
 
 Due to extenuating circumstances, we have had to purge our list of extensions.
 
-As of now, **Anikku** is transitioning to a fully bring-your-own-content model. What this means is that you can still enjoy **Anikku** for manga reading and anime watching, but you'll need to source and add your own content.
+As of now, **Anikku** is transitioning to a fully bring-your-own-content model. What this means is that you can still enjoy **Anikku** for anime watching, but you'll need to source and add your own content.
 
 We strongly encourage all users to exercise caution, and avoid utilizing extensions from unknown repositories, as they may contain malware.
 

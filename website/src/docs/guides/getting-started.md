@@ -29,11 +29,10 @@ Once **Anikku** is installed on your device, you can bring your own content to r
 Read or watch content stored locally on your device.
 
 See the local source guides for instructions:
-- [Manga](/docs/guides/local-manga-source/)
 - [Anime](/docs/guides/local-anime-source/)
 
 == External repositories
-External repositories add additional sources to **Anikku**. You can add external repositories by going to <nav to="browse"> and tapping **Anime/Manga extension repos**.
+External repositories add additional sources to **Anikku**. You can add external repositories by going to <nav to="browse"> and tapping **Anime extension repos**.
 
 Once there, you can add repositories by inputting URLs ending with `index.min.json`.
 
@@ -57,7 +56,7 @@ Anikku will not provide resources for any unofficial extensions. Beware that any
 
 ### Adding series to your library
 
-After installing the desired extension, you'll find it in the **Manga/Anime Sources** tab.
+After installing the desired extension, you'll find it in the **Anime Sources** tab.
 
 Here's how you can add series to your library:
 

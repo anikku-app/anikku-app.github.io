@@ -108,17 +108,6 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
         { text: 'Tracking', link: '/docs/guides/tracking' },
         { text: 'Categories', link: '/docs/guides/categories' },
         {
-          text: 'Local manga source',
-          link: '/docs/guides/local-manga-source/',
-          collapsed: true,
-          items: [
-            {
-              text: 'Advanced editing',
-              link: '/docs/guides/local-manga-source/advanced',
-            },
-          ],
-        },
-        {
           text: 'Local anime source',
           link: '/docs/guides/local-anime-source/',
           collapsed: true,
@@ -128,10 +117,6 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
               link: '/docs/guides/local-anime-source/advanced',
             },
           ],
-        },
-        {
-          text: 'Reader settings',
-          link: '/docs/guides/reader-settings',
         },
         {
           text: 'Player settings',
