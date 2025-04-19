@@ -6,7 +6,7 @@
 
 # Stolen Anikku [Website](#)
 
-### Full-featured player and reader, based on ~~Tachiyomi~~ Mihon.
+### Full-featured player, based on [Aniyomi](https://github.com/aniyomiorg/aniyomi) & [Komikku](https://github.com/komikku-app/komikku).
 Discover and watch anime, cartoons, series, and more – easier than ever on your Android device.
 
 [![Discord server](https://img.shields.io/discord/1242381704459452488.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF)](https://discord.gg/85jB7V5AJR)

@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Anikku
-  text: Full-featured player and reader, based on <s>Tachiyomi</s> Komikku.
+  text: Full-featured player, based on Aniyomi & Komikku.
   tagline: Discover and watch anime, cartoons, series, and more – easier than ever on your Android device.
   image:
     alt: Anikku Library Tab Dark
