@@ -38,7 +38,7 @@
     "@tanstack/vue-query": "5.85.3",
     "@vueuse/core": "11.3.0",
     "axios": "1.11.0",
-    "element-plus": "2.10.7",
+    "element-plus": "2.11.0",
     "lodash.groupby": "4.6.0",
     "markdown-it": "14.1.0",
     "markdown-it-shortcode-tag": "1.1.0",
