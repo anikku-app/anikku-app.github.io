@@ -62,7 +62,7 @@
     "@typescript-eslint/parser": "8.46.2",
     "eslint": "9.39.0",
     "eslint-config-standard": "17.1.0",
-    "eslint-plugin-vue": "9.33.0",
+    "eslint-plugin-vue": "10.5.1",
     "feed": "4.2.2",
     "lint-staged": "15.5.2",
     "markdownlint": "0.39.0",
