@@ -35,9 +35,9 @@
     "@iconify-prerendered/vue-mdi": "0.28.1737398331",
     "@octokit/rest": "21.1.1",
     "@octokit/types": "13.10.0",
-    "@tanstack/vue-query": "5.100.9",
+    "@tanstack/vue-query": "5.100.10",
     "@vueuse/core": "11.3.0",
-    "axios": "1.16.0",
+    "axios": "1.16.1",
     "element-plus": "2.14.0",
     "lodash.groupby": "4.6.0",
     "markdown-it": "14.1.1",
@@ -57,9 +57,9 @@
     "@types/gtag.js": "0.0.20",
     "@types/lodash.groupby": "4.6.9",
     "@types/markdown-it": "14.1.2",
-    "@types/node": "22.19.18",
-    "@typescript-eslint/eslint-plugin": "8.59.2",
-    "@typescript-eslint/parser": "8.59.2",
+    "@types/node": "22.19.19",
+    "@typescript-eslint/eslint-plugin": "8.59.3",
+    "@typescript-eslint/parser": "8.59.3",
     "eslint": "9.39.4",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-vue": "9.33.0",
@@ -77,7 +77,7 @@
     "vitepress-plugin-tabs": "0.9.0",
     "vue": "3.5.34",
     "vue-eslint-parser": "9.4.3",
-    "x-satori": "0.4.0"
+    "x-satori": "0.5.1"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
