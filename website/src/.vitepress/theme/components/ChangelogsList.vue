@@ -13,6 +13,8 @@ function renderMarkdown(string: string | null | undefined) {
     .replace(/#(\d+)/g, '[#$1](https://github.com/komikku-app/anikku/issues/$1)')
     .replace(/^Check out the .*past release notes.* if you're.*$/m, '')
     .replace(/https:\/\/github.com\/komikku-app\/anikku\/releases\/tag\/(.*)/g, '#$1')
+    .replace(/--- Checksums ---/g, '')
+    .replace(/<!-->/g, '')
     .trim()
 
   return md.render(flavoredString)
