@@ -33,8 +33,8 @@ importers:
         specifier: 4.6.0
         version: 4.6.0
       markdown-it:
-        specifier: 14.3.2
-        version: 14.3.2
+        specifier: 14.3.3
+        version: 14.3.3
       markdown-it-shortcode-tag:
         specifier: 1.1.0
         version: 1.1.0
@@ -50,22 +50,22 @@ importers:
         version: 3.3.6
       '@mdit/plugin-attrs':
         specifier: 0.25.2
-        version: 0.25.2(markdown-it@14.3.2)
+        version: 0.25.2(markdown-it@14.3.3)
       '@mdit/plugin-figure':
         specifier: 0.23.2
-        version: 0.23.2(markdown-it@14.3.2)
+        version: 0.23.2(markdown-it@14.3.3)
       '@mdit/plugin-img-lazyload':
         specifier: 0.23.2
-        version: 0.23.2(markdown-it@14.3.2)
+        version: 0.23.2(markdown-it@14.3.3)
       '@mdit/plugin-img-mark':
         specifier: 0.23.2
-        version: 0.23.2(markdown-it@14.3.2)
+        version: 0.23.2(markdown-it@14.3.3)
       '@mdit/plugin-img-size':
         specifier: 0.23.2
-        version: 0.23.2(markdown-it@14.3.2)
+        version: 0.23.2(markdown-it@14.3.3)
       '@mdit/plugin-include':
         specifier: 0.23.2
-        version: 0.23.2(markdown-it@14.3.2)
+        version: 0.23.2(markdown-it@14.3.3)
       '@resvg/resvg-js':
         specifier: 2.6.2
         version: 2.6.2
@@ -3072,8 +3072,8 @@ packages:
     resolution: {integrity: sha512-1TGiQiJVRQ3NPmZH6sx5Cfnmg6GQm9jvC1ch4TK511NjSJvjzKLzn5pPfZRNZkRPZP0HqCioSndqH8v2nRaWVQ==}
     hasBin: true
 
-  markdown-it@14.3.2:
-    resolution: {integrity: sha512-sHHjZ5fJKlgrG4qns2YwVcdNep35h5fERrfkD2YNsb9UFk0UIHarbiTaHKVMlPuWAoiilyK8Fv/jAm11slsY7Q==}
+  markdown-it@14.3.3:
+    resolution: {integrity: sha512-L//tDAkjTjJCU6pBUSBTgs3Kg4InVaZuUZog/b6V12UKhcDQ7S78877ibbCanRExwPuYP1CZD7Gd2dxSy1GXRg==}
     hasBin: true
 
   markdownlint-cli@0.49.0:
@@ -4875,50 +4875,50 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@mdit/helper@0.23.2(markdown-it@14.3.2)':
+  '@mdit/helper@0.23.2(markdown-it@14.3.3)':
     dependencies:
       '@types/markdown-it': 14.1.2
     optionalDependencies:
-      markdown-it: 14.3.2
+      markdown-it: 14.3.3
 
-  '@mdit/plugin-attrs@0.25.2(markdown-it@14.3.2)':
+  '@mdit/plugin-attrs@0.25.2(markdown-it@14.3.3)':
     dependencies:
-      '@mdit/helper': 0.23.2(markdown-it@14.3.2)
+      '@mdit/helper': 0.23.2(markdown-it@14.3.3)
       '@types/markdown-it': 14.1.2
     optionalDependencies:
-      markdown-it: 14.3.2
+      markdown-it: 14.3.3
 
-  '@mdit/plugin-figure@0.23.2(markdown-it@14.3.2)':
-    dependencies:
-      '@types/markdown-it': 14.1.2
-    optionalDependencies:
-      markdown-it: 14.3.2
-
-  '@mdit/plugin-img-lazyload@0.23.2(markdown-it@14.3.2)':
+  '@mdit/plugin-figure@0.23.2(markdown-it@14.3.3)':
     dependencies:
       '@types/markdown-it': 14.1.2
     optionalDependencies:
-      markdown-it: 14.3.2
+      markdown-it: 14.3.3
 
-  '@mdit/plugin-img-mark@0.23.2(markdown-it@14.3.2)':
+  '@mdit/plugin-img-lazyload@0.23.2(markdown-it@14.3.3)':
     dependencies:
       '@types/markdown-it': 14.1.2
     optionalDependencies:
-      markdown-it: 14.3.2
+      markdown-it: 14.3.3
 
-  '@mdit/plugin-img-size@0.23.2(markdown-it@14.3.2)':
+  '@mdit/plugin-img-mark@0.23.2(markdown-it@14.3.3)':
     dependencies:
       '@types/markdown-it': 14.1.2
     optionalDependencies:
-      markdown-it: 14.3.2
+      markdown-it: 14.3.3
 
-  '@mdit/plugin-include@0.23.2(markdown-it@14.3.2)':
+  '@mdit/plugin-img-size@0.23.2(markdown-it@14.3.3)':
     dependencies:
-      '@mdit/helper': 0.23.2(markdown-it@14.3.2)
+      '@types/markdown-it': 14.1.2
+    optionalDependencies:
+      markdown-it: 14.3.3
+
+  '@mdit/plugin-include@0.23.2(markdown-it@14.3.3)':
+    dependencies:
+      '@mdit/helper': 0.23.2(markdown-it@14.3.3)
       '@types/markdown-it': 14.1.2
       upath: 2.0.1
     optionalDependencies:
-      markdown-it: 14.3.2
+      markdown-it: 14.3.3
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -7334,7 +7334,7 @@ snapshots:
       punycode.js: 2.3.1
       uc.micro: 2.1.0
 
-  markdown-it@14.3.2:
+  markdown-it@14.3.3:
     dependencies:
       argparse: 2.0.1
       entities: 4.5.0
