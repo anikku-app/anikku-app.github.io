@@ -55,8 +55,8 @@ importers:
         specifier: 0.23.2
         version: 0.23.2(markdown-it@14.3.3)
       '@mdit/plugin-img-lazyload':
-        specifier: 0.23.2
-        version: 0.23.2(markdown-it@14.3.3)
+        specifier: 1.1.5
+        version: 1.1.5(markdown-it@14.3.3)
       '@mdit/plugin-img-mark':
         specifier: 0.23.2
         version: 0.23.2(markdown-it@14.3.3)
@@ -810,6 +810,15 @@ packages:
       markdown-it:
         optional: true
 
+  '@mdit/helper@1.2.1':
+    resolution: {integrity: sha512-OS++ECXryTqYD3IQFngmYI5Eag8ZftewAmsFnZ8EqBV+YpoTNVFubb9fFgQDkxdNdDT/oh5wtEzcj1Tu1/BLSQ==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      markdown-it: ^15.0.3
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
+
   '@mdit/plugin-attrs@0.25.2':
     resolution: {integrity: sha512-/R1BzkCWY8OvjDek9y/0/hpxZKWlwef0Gq/jtee9+ZbX0J9ffXfJl+Isgh3Ecur01R6Bv+1XNJtaBGNgUm/w6Q==}
     engines: {node: '>= 20'}
@@ -828,11 +837,11 @@ packages:
       markdown-it:
         optional: true
 
-  '@mdit/plugin-img-lazyload@0.23.2':
-    resolution: {integrity: sha512-ChmBzqd9ovp6sUplb388on8NphfW0JBMmaDLf4lXd0IvMX3+dYlPAtPKxUJr3QwmEK5rAnfRFeJG5cvC+CsHSg==}
-    engines: {node: '>= 20'}
+  '@mdit/plugin-img-lazyload@1.1.5':
+    resolution: {integrity: sha512-qCOd6cKqmbXEMj6/l6DRZj2ClAcTtfTEjxZNf0KDPS1R9Eh69TLcdoczoCNPWIhw/r8CqpGTQDirX2b7evqlxw==}
+    engines: {node: '>=22'}
     peerDependencies:
-      markdown-it: ^14.1.0
+      markdown-it: ^15.0.3
     peerDependenciesMeta:
       markdown-it:
         optional: true
@@ -4904,6 +4913,10 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.3.3
 
+  '@mdit/helper@1.2.1(markdown-it@14.3.3)':
+    optionalDependencies:
+      markdown-it: 14.3.3
+
   '@mdit/plugin-attrs@0.25.2(markdown-it@14.3.3)':
     dependencies:
       '@mdit/helper': 0.23.2(markdown-it@14.3.3)
@@ -4917,9 +4930,9 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.3.3
 
-  '@mdit/plugin-img-lazyload@0.23.2(markdown-it@14.3.3)':
+  '@mdit/plugin-img-lazyload@1.1.5(markdown-it@14.3.3)':
     dependencies:
-      '@types/markdown-it': 14.2.0
+      '@mdit/helper': 1.2.1(markdown-it@14.3.3)
     optionalDependencies:
       markdown-it: 14.3.3
 
