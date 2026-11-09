@@ -49,8 +49,8 @@ importers:
         specifier: ^3.1.0
         version: 3.3.7
       '@mdit/plugin-attrs':
-        specifier: 0.25.2
-        version: 0.25.2(markdown-it@14.3.3)
+        specifier: 1.5.0
+        version: 1.5.0(markdown-it@14.3.3)
       '@mdit/plugin-figure':
         specifier: 0.23.2
         version: 0.23.2(markdown-it@14.3.3)
@@ -810,11 +810,20 @@ packages:
       markdown-it:
         optional: true
 
-  '@mdit/plugin-attrs@0.25.2':
-    resolution: {integrity: sha512-/R1BzkCWY8OvjDek9y/0/hpxZKWlwef0Gq/jtee9+ZbX0J9ffXfJl+Isgh3Ecur01R6Bv+1XNJtaBGNgUm/w6Q==}
-    engines: {node: '>= 20'}
+  '@mdit/helper@1.2.1':
+    resolution: {integrity: sha512-OS++ECXryTqYD3IQFngmYI5Eag8ZftewAmsFnZ8EqBV+YpoTNVFubb9fFgQDkxdNdDT/oh5wtEzcj1Tu1/BLSQ==}
+    engines: {node: '>=22'}
     peerDependencies:
-      markdown-it: ^14.1.0
+      markdown-it: ^15.0.3
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
+
+  '@mdit/plugin-attrs@1.5.0':
+    resolution: {integrity: sha512-46D55yFWKs+EOt/AlZ9QR3BzCnWyQW+f7B8EenIIt2QiN2luqt2rbDBEiQVt4/IuhbFE8cs1uQ51VsberdKbrw==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      markdown-it: ^15.0.3
     peerDependenciesMeta:
       markdown-it:
         optional: true
@@ -4904,10 +4913,13 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.3.3
 
-  '@mdit/plugin-attrs@0.25.2(markdown-it@14.3.3)':
+  '@mdit/helper@1.2.1(markdown-it@14.3.3)':
+    optionalDependencies:
+      markdown-it: 14.3.3
+
+  '@mdit/plugin-attrs@1.5.0(markdown-it@14.3.3)':
     dependencies:
-      '@mdit/helper': 0.23.2(markdown-it@14.3.3)
-      '@types/markdown-it': 14.2.0
+      '@mdit/helper': 1.2.1(markdown-it@14.3.3)
     optionalDependencies:
       markdown-it: 14.3.3
 
